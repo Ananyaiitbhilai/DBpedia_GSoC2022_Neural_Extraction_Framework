@@ -1,23 +1,23 @@
 # ----
 # Site
 
-title: Edition Template
-url: "https://long-pig.cloudvent.net"
+title: Neural Extraction Framework
+url: " "
 baseurl:
 google_analytics_key:
 show_full_navigation: true
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Product documentation template for Jekyll.
-author:
-  name:
-  email:
+description: Weekly Blogs for Neural Extraction Framework Project.
+author: 
+  name: Ananya
+  email: ananyah@iitbhilai.ac.in
   twitter: # twitter username without the @ symbol
 social:
-  name: Edition Template
+  name: GSoC 2022
   links:
-    - https://github.com/CloudCannon/edition-jekyll-template
+    - https://github.com/dbpedia/neural-extraction-framework
 
 # -----
 # Build
