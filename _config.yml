@@ -2,8 +2,8 @@
 # Site
 
 title: Neural Extraction Framework
-url: " "
-baseurl: "DBpedia_GSoC2022_Neural_Extraction_Framework"
+url: "https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/"
+baseurl: 
 google_analytics_key:
 show_full_navigation: true
 
