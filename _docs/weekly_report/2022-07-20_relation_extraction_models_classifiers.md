@@ -40,7 +40,14 @@ Here relation extracted by distant supervision would be *<span style="color:red"
 One of the approaches I am using is a SpaCy framework in which you can use pre-trained transformers from hugging Face library and tok2vec.
 
 Here is the work flow:
+![0](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/spacy0.png)
 ![1](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/spacy1.png)
 ![2](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/spacy2.png)
 ![3](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/spacy3.png)
 ![4](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/spacy4.png)
+
+### References
+<div id="refer-anchor-1"></div>
+- [Entity-Relationship Extraction
+from Wikipedia Unstructured Text](http://ceur-ws.org/Vol-1733/paper-10.pdf)
+- [SPACY v3: Custom trainable relation extraction component](https://www.youtube.com/watch?v=8HL-Ap5_Axo&t=770s)
