@@ -113,7 +113,9 @@ Then load the model with its corresponding name:
 
 After loading it, you can do relation extraction with the following format:
 
-```>>> model.infer({'text': 'He was the son of Máel Dúin mac Máele Fithrich, and grandson of the high king Áed Uaridnach (died 612).', 'h': {'pos': (18, 46)}, 't': {'pos': (78, 91)}})```
+```
+>>> model.infer({'text': 'He was the son of Máel Dúin mac Máele Fithrich, and grandson of the high king Áed Uaridnach (died 612).', 'h': {'pos': (18, 46)}, 't': {'pos': (78, 91)}})
+```
 
 The infer function takes one dict as input. The text key represents the sentence and the `h/ t`  keys represent head and tail entities, in which pos (position) should be specified.
 
