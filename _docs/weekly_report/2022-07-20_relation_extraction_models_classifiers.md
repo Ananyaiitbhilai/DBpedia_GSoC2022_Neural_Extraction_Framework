@@ -20,7 +20,7 @@ For example, in the Wikipedia article of Barack Obama it is mentioned that:
 
 >Obama is a supporter of the Chicago White Sox
 
-This information can be represented as the following triple: *<span style="color:blue">BarackObama</span> <span style="color:green">supporterOf </span><span style="color:blue">ChicagoWhiteSox</span>*. Such triple can then be added to any existing data source.
+This information can be represented as the following triple: *cr>BarackObama</span> <span style="color:green">supporterOf </span><span style="color:blue">ChicagoWhiteSox</span>*. Such triple can then be added to any existing data source.
 
 The main challenge in this work is that there are two different problems that need to be simultaneously dealt with. The first is the relation extraction (RE) problem, that is, given a text containing entities, we syntactically extract relations between them. The second is the knowledge representation (KR) problem, that is, the extracted relations should always follow a well-defined schema, semantics, or ontology. This is an important issue because we want to combine all the extracted relations to enrich existing data sources. Without handling the knowledge representation properly, one can just extract all possible relations without considering whether, for example, two relations are equivalent and should be merged together, or whether additional semantic details can be mined from the sentence in order to correctly represent a more complex fact.
 
