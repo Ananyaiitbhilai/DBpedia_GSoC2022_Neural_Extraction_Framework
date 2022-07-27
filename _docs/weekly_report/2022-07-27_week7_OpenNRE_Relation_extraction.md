@@ -106,22 +106,22 @@ OpenNRE has the following released models for sentence-level relation extraction
 * wiki80_bertentity_softmax: trained on wiki80 dataset with a BIRT encoder.
 
 After installing OpenNRE, open Python and load OpenNRE:
-> `>>> import opennre`
+`>>> import opennre`
 
 Then load the model with its corresponding name:
-> `>>> model = opennre.get_model('wiki80_cnn_softmax')`
+`>>> model = opennre.get_model('wiki80_cnn_softmax')`
 
 After loading it, you can do relation extraction with the following format:
 
-> `>>> model.infer({'text': 'He was the son of Máel Dúin mac Máele Fithrich, and grandson of the high king Áed Uaridnach (died 612).', 'h': {'pos': (18, 46)}, 't': {'pos': (78, 91)}})`
+`>>> model.infer({'text': 'He was the son of Máel Dúin mac Máele Fithrich, and grandson of the high king Áed Uaridnach (died 612).', 'h': {'pos': (18, 46)}, 't': {'pos': (78, 91)}})`
 
 The infer function takes one dict as input. The text key represents the sentence and the `h/ t`  keys represent head and tail entities, in which pos (position) should be specified.
 
 The model will return the predicted result as:
-> `>>> ('father', 0.5108704566955566)`
+`>>> ('father', 0.5108704566955566)`
 
 ![New Approach](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/openNRE.png)
 *Fig5*
 
 #### Ponder
-One thing to be noticed is whether the sentance is **Kate lives in Delhi** or **Kate lived in Delhi**, both extracted the relation *{residence}*
+One thing to be noticed is whether the sentence is **Kate lives in Delhi** or **Kate lived in Delhi**, both extract the relation *{residence}*.
