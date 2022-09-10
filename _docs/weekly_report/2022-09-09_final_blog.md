@@ -102,4 +102,4 @@ I would love to build a model that could predict a new relation after accomplish
 
 Overall, it was an amazing and enriching experience for me, I got to learn a lot during GSoC. My all mentors were highly supportive, and knowledgeable and guided me along the path. I look forward to working and learning with them.
 
-Link to the repositary: https://github.com/dbpedia/neural-extraction-framework/tree/gsoc22-ananya
+Link to the repositary: [https://github.com/dbpedia/neural-extraction-framework/tree/gsoc22-ananya](https://github.com/dbpedia/neural-extraction-framework/tree/gsoc22-ananya)
