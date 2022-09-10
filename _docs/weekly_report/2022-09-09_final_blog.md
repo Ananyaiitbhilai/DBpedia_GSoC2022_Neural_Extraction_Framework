@@ -12,6 +12,7 @@ For RE, we want to express triplets as a sequence of tokens such that we can ret
 
 ### Datasets in REBEL
 The dataset is created by distant supervision and serves as a pre-training step, however, it is worth noting its performance for predicting up to 220 different relation types.
+
 |   Dataset Details     | |
 |-------------|-------------|
 | REBEL dataset|   This dataset was created by matching Wikipedia hyperlinks with Wikidata entities. To pre-train model, a sentence- level version is used for it, where only relations between entities present in each sentence are kept. The 220 most frequent relations in the train split|
