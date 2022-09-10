@@ -36,17 +36,17 @@ We can discard triples which are having confidence level below a certain thresho
 
 I got the Wikipedia page links present in a particular Wikipedia article by using the following SPARQL query:
 ```
-   select ?link ?pred ?pred_inv where {{
-    <http://dbpedia.org/resource/{article_name}> <http://dbpedia.org/ontology/wikiPageWikiLink> ?link .
-    optional {{
-        <http://dbpedia.org/resource/{article_name}> ?pred ?link
+select ?link ?pred ?pred_inv where {
+    <http://dbpedia.org/resource/Berlin_Wall> <http://dbpedia.org/ontology/wikiPageWikiLink> ?link .
+    optional {
+        <http://dbpedia.org/resource/Berlin_Wall> ?pred ?link
         filter(?pred != <http://dbpedia.org/ontology/wikiPageWikiLink>)
-    }}
-    optional {{
-        ?link ?pred_inv <http://dbpedia.org/resource/{article_name}>
+    }
+    optional {
+        ?link ?pred_inv <http://dbpedia.org/resource/Berlin_Wall>
         filter(?pred_inv != <http://dbpedia.org/ontology/wikiPageWikiLink>)
-    }}
-}} order by ?link
+    }
+} order by ?link
 ```
 
 I scraped the whole Wikipedia article using the Wikipedia python library and then performed coreference resolution on the text using the neuralcoref library.
