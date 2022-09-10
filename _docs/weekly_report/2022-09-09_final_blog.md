@@ -21,6 +21,7 @@ The dataset is created by distant supervision and serves as a pre-training step,
 | NYT | NYT (Riedel et al., 2010) is a dataset consisting of news sentences from the New York Times corpus. The dataset contains distantly annotated relations using FreeBase. We use the processed version of Zeng et al. (2018) called NYT-multi, which con- tains overlapping entities, with three different entity types, and 24 relation types. |
 | ADE | ADE (Gurulingappa et al., 2012) is a dataset on the biomedical domain, for which Adverse-Effects from drugs are annotated as pairs of drug and adverse-effect. The dataset provides 10-folds of train and test splits. |
 | Re-TACRED | Re-TACRED (Stoica et al., 2021) is a Relation Clas- sification dataset, a revised version of the widely used TACRED (Zhang et al., 2017), fixing some of the issues pointed out by Alt et al. (2020). We want to extract the relation between two given entities, or the no_relation prediction, accounting for 63% of the 91,467 sentences in the dataset.|
+
 ![New Approach](https://ananyaiitbhilai.github.io/DBpedia_GSoC2022_Neural_Extraction_Framework/images/accuracyondiffdatasets.png)
 
 
